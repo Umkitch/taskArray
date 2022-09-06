@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\Tasks For Processing Array Elements\bin\Debug\Tasks For Processing Array Elements.exe.config
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\Tasks For Processing Array Elements\bin\Debug\Tasks For Processing Array Elements.exe
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\Tasks For Processing Array Elements\bin\Debug\Tasks For Processing Array Elements.pdb
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\Tasks For Processing Array Elements\obj\Debug\Tasks For Processing Array Elements.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\Tasks For Processing Array Elements\obj\Debug\Tasks For Processing Array Elements.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\Tasks For Processing Array Elements\obj\Debug\Tasks For Processing Array Elements.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\Tasks For Processing Array Elements\obj\Debug\Tasks For Processing Array Elements.exe
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\Tasks For Processing Array Elements\obj\Debug\Tasks For Processing Array Elements.pdb

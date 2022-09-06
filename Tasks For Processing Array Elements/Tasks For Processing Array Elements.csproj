@@ -7,7 +7,7 @@
     <ProjectGuid>{8DAD905C-0305-4CE0-B8B9-CD10BED261A1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Tasks_For_Processing_Array_Elements</RootNamespace>
-    <AssemblyName>Tasks_For_Processing_Array_Elements</AssemblyName>
+    <AssemblyName>Tasks For Processing Array Elements</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
