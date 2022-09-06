@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\taskArray\obj\Debug\taskArray.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\taskArray\obj\Debug\taskArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\taskArray\obj\Debug\taskArray.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\taskArray\bin\Debug\taskArray.exe.config
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\taskArray\bin\Debug\taskArray.exe
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\taskArray\bin\Debug\taskArray.pdb
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\taskArray\obj\Debug\taskArray.exe
+C:\Users\User\Desktop\sharpGrade\practice\taskArray\taskArray\obj\Debug\taskArray.pdb
