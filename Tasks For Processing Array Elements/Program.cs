@@ -55,60 +55,155 @@ namespace Tasks_For_Processing_Array_Elements
             //else Console.WriteLine("'k' элемент массива больше");
             //Console.WriteLine();
 
-            Console.WriteLine();
-            Console.WriteLine("M2.3. Дан массив. Все его элементы:" +
-                "\r\nа) увеличить в 2 раза;" +
-                "\r\nб) уменьшить на число А;" +
-                "\r\nв) разделить на первый элемент.");
-            var allElements = new int[10];
-            Console.WriteLine();
-
-            Console.WriteLine("a) ");
-            for (int i = 0; i < allElements.Length; i++)
-            {
-                allElements[i] = random.Next(1, 255);
-                Console.Write($"{allElements[i]} ");
-            }
-            Console.WriteLine();
-            Console.WriteLine();
-            foreach (var item in allElements)
-            {
-                var result = item * 2;
-                Console.Write($"{result} ");
-            }
-            Console.WriteLine();
-            //or
-            var allElements1 = new int[10];
-            Console.WriteLine();
-
-            for (int i = 0; i < allElements1.Length; i++)
-            {
-                var result = random.Next(1, 255);
-                allElements1[i] = result;
-                result *= 2;
-                Console.WriteLine($"{allElements1[i]}, {result}");
-            }
-            Console.WriteLine();
-            
-
             //Console.WriteLine();
-            //Console.WriteLine("M2.4.  Дан массив. Все его элементы:" +
-            //    "\r\nа) уменьшить на 20;" +
-            //    "\r\nб) умножить на последний элемент;" +
-            //    "\r\nв) увеличить на число В.");
+            //Console.WriteLine("M2.3. Дан массив. Все его элементы:" +
+            //    "\r\nа) увеличить в 2 раза;" +
+            //    "\r\nб) уменьшить на число А;" +
+            //    "\r\nв) разделить на первый элемент.");
+            //var allElements = new int[10];
             //Console.WriteLine();
 
+            //Console.WriteLine("a) ");
+            //for (int i = 0; i < allElements.Length; i++)
+            //{
+            //    allElements[i] = random.Next(1, 255);
+            //    Console.Write($"{allElements[i]} ");
+            //}
             //Console.WriteLine();
-            //Console.WriteLine("M2.5. Определить:" +
-            //    "\r\nа) сумму всех элементов массива;" +
-            //    "\r\nб) произведение всех элементов массива;" +
-            //    "\r\nв) сумму квадратов всех элементов массива;" +
-            //    "\r\nг) сумму шести первых элементов массива;" +
-            //    "\r\nд) сумму элементов массива с k1-го по k2-й" +
-            //    "(значения k1 и k2 вводятся с клавиатуры; k2 > k1);" +
-            //    "\r\nе) среднее арифметическое всех элементов массива;" +
-            //    "\r\nж) среднее арифметическое элементов массива с s1-го по s2-й" +
-            //    "(значения s1 и s2 вводятся с клавиатуры; s2 > s1).");
+            //Console.WriteLine();
+            //foreach (var item in allElements)
+            //{
+            //    var result = item * 2;
+            //    Console.Write($"{result} ");
+            //}
+            //Console.WriteLine();
+            ////or
+            //var allElements1 = new int[10];
+            //Console.WriteLine();
+
+            //for (int i = 0; i < allElements1.Length; i++)
+            //{
+            //    var result = random.Next(1, 255);
+            //    allElements1[i] = result;
+            //    result *= 2;
+            //    Console.WriteLine($"{allElements1[i]}, {result}");
+            //}
+            //Console.WriteLine();
+
+            //Console.WriteLine("б) ");
+            //Console.WriteLine("Введите 'A': ");
+            //var A = int.Parse(Console.ReadLine());
+            //foreach (var item in allElements1)
+            //{
+            //    var result = item - A;
+            //    Console.WriteLine(result);
+            //}
+
+            //Console.WriteLine("в) ");
+            //foreach (var item in allElements1)
+            //{
+            //    double divider = allElements1[0];
+            //    double result = item / divider;
+            //    string stringResult = string.Format("{0:F}", result);
+            //    Console.WriteLine(stringResult);
+            //}
+
+
+            Console.WriteLine();
+            Console.WriteLine("M2.4.  Дан массив. Все его элементы:" +
+                "\r\nа) уменьшить на 20;" +
+                "\r\nб) умножить на последний элемент;" +
+                "\r\nв) увеличить на число В.");
+            //var arrayElem = new int[10];
+            //Console.WriteLine();
+
+            //Console.WriteLine("a)");
+            //for (int i = 0; i < arrayElem.Length; i++)
+            //{
+            //    var indexOfArray = random.Next(1, 255);
+            //    Console.Write($"{indexOfArray} ");
+            //    var subtrahend = 20;
+            //    arrayElem[i] = indexOfArray - subtrahend;
+            //    Console.WriteLine(arrayElem[i]);
+            //}
+            //Console.WriteLine();
+
+            //Console.WriteLine("б)");
+            //for (int i = 0; i < arrayElem.Length; i++)
+            //{
+            //    arrayElem[i] = random.Next(1, 255);
+            //    Console.WriteLine(arrayElem[i]);
+            //}
+            //var lastIndex = arrayElem[9];
+            //Console.WriteLine($"Последний индекс равен: {lastIndex}");
+
+            //var arrayElem1 = new int[10];
+            //foreach (var item in arrayElem)
+            //{
+            //    var result = item * lastIndex;
+            //    for (int i = 0; i < arrayElem1.Length; i++)
+            //    {
+            //        arrayElem1[i] = result;
+            //        Console.Write($"{arrayElem1[i]} ");
+            //        break;
+            //    }
+            //}
+            //Console.WriteLine();
+
+
+            //Console.WriteLine();
+            //Console.WriteLine("в) Увеличить на число B");
+            //var arrayUp = new int[5];
+            //Console.Write("Введите число 'В': ");
+            //var up = int.Parse(Console.ReadLine());
+            //for (int i = 0; i < arrayUp.Length; i++)
+            //{
+            //    var randUp = random.Next(1, 255);
+            //    arrayUp[i] = randUp + up;
+            //    Console.Write($"{arrayUp[i]} ");
+            //}
+            //Console.WriteLine();
+
+
+            Console.WriteLine();
+            Console.WriteLine("M2.5. Определить:" +
+                "\r\nа) сумму всех элементов массива;" +
+                "\r\nб) произведение всех элементов массива;" +
+                "\r\nв) сумму квадратов всех элементов массива;" +
+                "\r\nг) сумму шести первых элементов массива;" +
+                "\r\nд) сумму элементов массива с k1-го по k2-й" +
+                "(значения k1 и k2 вводятся с клавиатуры; k2 > k1);" +
+                "\r\nе) среднее арифметическое всех элементов массива;" +
+                "\r\nж) среднее арифметическое элементов массива с s1-го по s2-й" +
+                "(значения s1 и s2 вводятся с клавиатуры; s2 > s1).");
+            Console.WriteLine();
+            //var arrayDoThis = new int[8];
+
+            //Console.WriteLine("a) Определить сумму всех элементов.");
+            //for (int i = 0; i < arrayDoThis.Length; i++)
+            //{
+            //    arrayDoThis[i] = random.Next(1, 255);
+            //    Console.Write($"{arrayDoThis[i]} ");
+            //}
+            var variable = 0;
+            //foreach (var item in arrayDoThis) variable += item;
+            //Console.WriteLine();
+            //Console.WriteLine(variable);
+            //Console.WriteLine();
+
+            //Console.WriteLine();
+            //Console.WriteLine("б) Определить произведение всех элементов массива");
+
+            //Console.WriteLine();
+            //Console.WriteLine("в) Определить сумму квадратов всех элементов массива.");
+
+            //Console.WriteLine();
+            //Console.WriteLine("г) Определить сумму первых шести  элементов массива");
+            //var array = new int[10];
+            //for (int i = 0; i < array.Length; i++)
+            //Console.WriteLine();
+            //Console.WriteLine();
+
             //Console.WriteLine();
 
             //Console.WriteLine();
